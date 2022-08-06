@@ -221,6 +221,10 @@ margin-bottom: 28px;
 
 
 @media (max-width: 800px){
+
+    .heroImg{
+        height: 200px;
+    }
     .aboutUsHead{
         font-family: 'Lato';
 font-style: normal;
@@ -375,4 +379,3 @@ margin-top: 20px;
     }
 
 }
-
