@@ -7,293 +7,372 @@
     box-sizing: border-box;
 }
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
 }
-.majorContainer{
-    width: 1728px;
-    /* height: 3034px; */
-}
-
-.navContainer{
-    background-color:  #A6A6A6;
-    font-family: 'Inter', sans-serif;
-}
-.navbar{
-    /* width: 1400px; */
-    width: 100%;
-    height: 100px;
+.bigContainer{
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 26px auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-   
 }
-
-.logo a{
-    text-decoration: none;
+.logo{
+    width: 180px;
 }
-
-
-.navLinks{
-    width: 467px;
-}
-.navLinks ul{
-    list-style-type: none;
-    display: flex;
-    /* justify-content: space-between; */
-    gap: 60px;
-    align-items: center;
-    margin-left: 30px;
-   
-}
-
-.navLinks ul a{
-    text-decoration: none;
-    color: #212121;
-    font-family: 'Inter';
-    font-size: 20px
-}
-
-.searchInp{
-    margin-left: -50px;
-    position: relative;
-}
-.searchInp input{
-    width: 437px;
-    height: 44px;
-    border: 1px solid #6F6F6F;
-    border-radius: 32px;
-    padding: 8px 50px;
-    outline: none;
-}
-.searchInp .fa-magnifying-glass{
-    position: absolute;
-    left: 20px;
-    top: 14px;
-    color: #A6A6A6;
-}
-
-.access button{
-    padding: 12px 20px;
-    cursor: pointer;
-    border-radius: 8px;
-}
-.login{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-background: transparent;
-border: 1px solid #777777;
-color: #777777;
-}
-
-.register{
-    background: #777777;
-    border: 1px solid #777777;
-border-radius: 8px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-color: #DDDDDD;
-margin-left: 20px;
-}
-
 .heroImg{
-    width: 100%;
-    height: 578px;
-    margin-top: 10px;
+    width: 100%
 }
 
-.copySection{
-    width: 1353px;
+.aboutUsRow{
+    max-width: 1000px;
     margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 50px;
 }
-.title{
+.aboutUsHead{
     font-family: 'Lato';
 font-style: normal;
 font-weight: 600;
 font-size: 56px;
-text-align: center;
-margin-bottom: 24px;
+line-height: 120%;
+margin-top: 40px;
+}
+.aboutUsPara{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #5E5E5E;
+padding-bottom: 120px;
 }
 
-.factSection, .founderSection {
-    width: 1568px;
-    margin: 0 auto;
-    margin-bottom: 40px;
+
+.facts{
+    padding-bottom: 100px;
 }
-.facts, .founders{
+
+.factHead, .founderHead{
     font-family: 'Lato';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 56px;
-    margin-bottom: 34px;
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 120%;
+color: #262626;
+margin-bottom: 36px;
 }
-.factboxContainer{
-    display: flex;
-    justify-content: space-between;
+.factFlex{
+    /* display: flex; */
+    flex-wrap: wrap;
 }
-.factbox{
-    height: 448px;
-    width: 507px;
-   background: #E1E1E1;
-    text-align: center;
+.factBox{
+    
+    border-radius: 8px;
+    background-color: #85A19A;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    border-radius: 8px;
+    align-items: center;
 }
-.factbox .second{
-    width: 506px;
-}
-.factbox .factHeading{
+.factFig{
     font-family: 'Lato';
 font-style: normal;
 font-weight: 500;
 font-size: 64px;
-color: #FFFFFF;
+line-height: 120%;
+color: white;
+margin-top: 146px;
 margin-bottom: 56px;
 }
-.factbox .factPara{
-    font-family: 'Lato';
+.factPara{
+    font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 28px;
+font-size: 22px;
+line-height: 36px;
 color: white;
+margin-bottom: 139px;
 }
 
 
-.founderSection{
-    margin-bottom: 78px;
+.founders{
+    padding-bottom: 100px;
 }
-.founderImgandCaption{
-    border-radius: 8px;
-}
-.founderImgandCaption img{
-    height: 448px;
-    width: 507px;
-    display: block;
-    border-radius: 8px;
-}
-.founderInfoContainer{
-    display: flex;
-    justify-content: space-between;
+.founderImg{
+    margin-bottom: 16px;
 }
 .founderName{
     font-family: 'Lato';
 font-style: normal;
 font-weight: 600;
 font-size: 36px;
+line-height: 120%;
+color: #3F3F3F;
+margin-bottom: 8px;
 }
 .founderPosition{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #5E5E5E;
+}
+
+
+.subscribe{
+    background: #F9F9F9;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.subscribeHead{
     font-family: 'Lato';
 font-style: normal;
-font-weight: 400;
-font-size: 24px;
+font-weight: 600;
+font-size: 48px;
+line-height: 120%;
+color: #262626;
+margin-bottom: 32px;
 }
-
-footer{
-    /* height: 708px; */
-    background: #A6A6A6;
-    padding-top: 80px;
-    color: white;
-}
-.footer1{
-    width: 1353px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 140px;
-}
-.footerContent h2{
+.subscribePara{
     font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
-margin-bottom: 24px;
+font-size: 20px;
+line-height: 150%;
+color: #5E5E5E;
+margin-bottom: 32px;
 }
-.footerContent a{
-    text-decoration: none;
-    color: white;
+.subscribeImg{
+    height: 280px;
+    width: 651px;
 }
-.footerContent p{
+.needList{
     font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 20px;
+line-height: 150%;
+color: #5E5E5E;
 }
-.firstFooterP, .secondFooterP{
-    margin-bottom: 16px;
+.subscribeInp{
+    width: 346px;
 }
 
 
-.footer2{
-    width: 1353px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+.footer{
+    padding: 80px;
     padding-bottom: 183px;
+    color: white;
 }
-.footer2 h2{
+.topCol{
+    display: flex;
+    gap: 140px;
+    flex-wrap: wrap;
+    padding-bottom: 140px;
+}
+.firstCol, .secondCol{
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+}
+.footerHead{
     font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
+line-height: 150%;
 }
-.footer2Content1 h2{
-    margin-bottom: 46px;
-}
-.footer2Content1 i{
-    width: 25px;
-    height: 25px;
-    margin-right: 59px;
-}
-.footer2Content1 p{
+.footerList a{
     font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-margin-top: 46px;
+line-height: 150%;
+text-decoration: none;
+color: white;
 }
-.footer2Content2 input{
-    width: 399px;
-    height: 36px;
-    margin-top: 28px;
-    box-shadow: 0px 1px 2px rgba(50, 50, 71, 0.08), 0px 0px 1px rgba(50, 50, 71, 0.2);
-border-radius: 4px;
-border: none;
-padding: 8px 12px;
+
+.visitSocial{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+margin-bottom: 42px;
 }
-.footer2Content2 input::placeholder{
+.socialIcons img{
+    width: 22px;
+    height: 20px;
+    margin-right: 55px;
+}
+.copyrigyht{
     font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
+line-height: 150%;
+margin-top: 42px;
 }
-.footer2Button{
-    margin-left: -5px;
-    padding: 8px 12px;
-    height: 36px;
-    box-shadow: 0px 1px 2px rgba(50, 50, 71, 0.08), 0px 0px 1px rgba(50, 50, 71, 0.2);
-border-radius: 4px;
-border: none;
-background: #212121;
-opacity: 0.8;
-font-family: 'Inter';
+.mailTitle{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+margin-bottom: 28px;
+}
+
+
+
+@media (max-width: 800px){
+    .aboutUsHead{
+        font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120%;
+margin-top: 20px;
+    }
+    .aboutUsPara{
+        font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-color: #A6A6A6;
+line-height: 150%;
+margin-top: 20px;
+margin-bottom: 0px;
+    }
+    .factHead, .founderHead{
+        font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120%;
+margin-bottom: 40px;
+    }
+    .factBox{
+        margin-bottom: 20px;
+    }
+    .factFig{
+        margin-top: 66px;
+        margin-bottom: 4px;
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+    }
+    .factPara{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+margin-bottom: 66px;
+    }
+    .facts{
+        padding-bottom: 80px;
+    }
+
+    .founderName{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+margin-bottom: 2px;
+    }
+    .founderPosition{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin-bottom: 16px;
+    }
+    .founders{
+        padding-bottom: 80px;
+    }
+
+    .subscribeHead{
+        font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120%;
+margin-bottom: 20px;
+    }
+    .subscribePara{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin-bottom: 20px;
+    }
+    .subscribeImg{
+        margin-bottom: 20px;
+    }
+    .needList{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #5E5E5E;
+    }
+
+    .footer{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .smallfooterCont{
+        padding-left: 20px;
+        border-bottom: 3px solid #F9F9F9;
+    }
+    .footerHead{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+    }
+    .footerList{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+    }
+    .mailTitle{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin-bottom: 8px;
+margin-top: 20px;
+    }
+    .mailInput{
+        margin-bottom: 86px;
+    }
+    .visitSocial{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin-bottom: 23px;
+    }
+    .socialIcons img{
+        margin-right: 24px;
+    }
+    .copyrigyht{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+margin-top: 20px;
+    }
+
 }
+
