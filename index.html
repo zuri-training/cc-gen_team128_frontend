@@ -4,211 +4,244 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/1d91c3d9dc.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
+
         <title>About Us</title>
     </head>
     <body>
-        <div class="majorContainer">
-            <div class="navContainer">
-                <div class="navbar">
-                    <div class="logoLinks">
-                        <img src="images/Logo.png" alt="logo" class="logo">
-            
-                        <ul class="navLinks">
-                            <li><a href="landingPage.html">Explore</a></li>
-                            <li><a href="index.html">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
+        <div class="bigContainer">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-lg">
+                    <a class="logo navbar-brand me-5" href="#"><img src="images/Logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active me-3" aria-current="page" href="#">Explore</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-3" aria-current="page" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-3" aria-current="page" href="#">Contact Us</a>
+                            </li>
                         </ul>
-                    </div>
-
-                    <div class="access desktopAccess">
-                        <button class="signIn">Sign In</button>
-                        <button class="signUp">Sign Up</button>
-                    </div>
-                   
-                    <div class="hamburger">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
+                        <form class="d-flex">
+                            <button class="btn btn-outline-success me-3" type="submit">Sign In</button>
+                            <button class="btn btn-primary" type="submit">Sign Up</button>
+                        </form>
                     </div>
                 </div>
-            </div>
-
-            <section class="heroSection">
-                <img src="images/Frame 1.png" alt="" class="heroImg">
-            </section>
-
-            <section class="copySection" id="aboutUs">
-                <h1 class="title">About Us</h1>
-
-                <p class="para">
-                    Cardvo founded in 2022, by Zuri was developed by team proj cc gen/128. Our purpose is to serve you an array of fancy credit card designs, that you can view, edit, download and share with friends on social media platforms. There is an opportunity for you to create your own design based on your preference, for are no limits to your creativity on Cardvo.</p>
-                <p class="para">Cardvo has about Fifty thousand (50,000) active users around the world, with over two hundred and twenty (220) card designs available in about seventy four (74) countries. If you need to know more or need assistance you can send us a mail via the contact us page. Little things matter to your happiness; unleash your creativity with Cardvo.
-                </p>
-            </section>
-
-            <!-- facts section -->
-            <section class="factSection">
-                <h1 class="facts">Facts</h1>
-
-                <div class="factboxContainer">
-                    <div class="factbox first">
-                        <h1 class="factHeading">50K+</h1>
-                        <p class="factPara">Active users around the world
-                        </p>
-                    </div>
-
-                    <div class="factbox second">
-                        <h1 class="factHeading">220+</h1>
-                        <p class="factPara">Credit card designs</p>
-                    </div>
-
-                    <div class="factbox third">
-                        <h1 class="factHeading">74+</h1>
-                        <p class="factPara">Active countries</p>
-                    </div>
-                </div>
-
-            </section>
-
-
-            <!-- founders section -->
-            <section class="founderSection">
-                <h1 class="founders">Meet the founders</h1>
-
-                <div class="founderInfoContainer">
-                    <div class="founderImgandCaption">
-                        <img src="images/Frame 457.png" alt="">
-                        <h2 class="founderName">J.O. Ademola</h2>
-                        <p class="founderPosition">Founder</p>
-                    </div>
-
-                    <div class="founderImgandCaption">
-                        <img src="images/Frame 458.png" alt="">
-                        <h2 class="founderName">A.J. Styles</h2>
-                        <p class="founderPosition">Co Founder</p>
-                    </div>
-
-                    <div class="founderImgandCaption">
-                        <img src="images/Frame 459.png" alt="">
-                        <h2 class="founderName">B.O.Kalejaye</h2>
-                        <p class="founderPosition">Co Founder</p>
-                    </div>
-                </div>
-
-
-            </section>
-
-
-            <!-- Subscribe section -->
-            <section class="subscribeSection">
-                <h1>Subscribe for financial Advice</h1>
-                <p>We help our users make better financial choices towards recieving cash rewards and saving money.</p>
-                <div class="imgCopyInp">
-                    <img src="images/Frame 437.png" alt="">
-
-                    <div class="needsInput">
-                        <div class="needs">
-                            <i class="fa-solid fa-check"></i>
-                            <p>Need a credit card with no annual fee</p>
-                        </div>
-                        <div class="needs">
-                            <i class="fa-solid fa-check"></i>
-                            <p>Need insight on cash rewards on purchases?</p>
-                        </div>
-                        <div class="needs">
-                            <i class="fa-solid fa-check"></i>
-                            <p>Need insight to know ranges of cash limits</p>
-                        </div>
-                        <div class="needs">
-                            <i class="fa-solid fa-check"></i>
-                            <p>Need to know  cash limits that fits your spending habits?</p>
-                        </div>
-
-                        <input type="text" name="email" id="" placeholder="Enter email to access our advice">
-                        <button type="submit" class="SubscribeButton">Subscribe</button>
-                    </div>
-
-                </div>
-            </section>
-
-
-            <footer class="footer">
-                <div class="footer1">
-                    <div class="footerContent">
-                        <h2>Our Company</h2>
-                        <a href="#">
-                            <p class="firstFooterP">About Us</p>
-                        </a>
-                        <a href="#">
-                            <p class="secondFooterP">Credit Cards</p>
-                        </a>
-                        <a href="#">
-                            <p>Testimonias</p>
-                        </a>
-                    </div>
-
-                    <div class="footerContent">
-                        <h2>Services</h2>
-                        <a href="#">
-                            <p class="firstFooterP">Explore Designs</p>
-                        </a>
-                        <a href="#">
-                            <p class="secondFooterP">Financial Advice</p>
-                        </a>
-                        <a href="#">
-                            <p>Mailing List</p>
-                        </a>
-                    </div>
-
-                    <div class="footerContent">
-                        <h2>Support</h2>
-                        <a href="#">
-                            <p class="firstFooterP">FAQ</p>
-                        </a>
-                        <a href="#">
-                            <p class="secondFooterP">Contact Us</p>
-                        </a>
-                    </div>
-
-                    <div class="footerContent">
-                        <h2>Useful resources</h2>
-                        <a href="#">
-                            <p class="firstFooterP">Blogs</p>
-                        </a>
-                        <a href="#">
-                            <p class="secondFooterP">Useful resources</p>
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="footer2">
-                    <div class="footer2Content1">
-                        <h2>Visit us on social media</h2>
-                        <!-- <i class="fa-brands fa-youtube"></i> -->
-                        <img src="images/Vector.png" alt="">
-                        <!-- <i class="fa-brands fa-twitter"></i> -->
-                        <img src="images/Vector-1.png" alt="">
-                        <!-- <i class="fa-brands fa-facebook-f"></i> -->
-                        <img src="images/Vector-2.png" alt="">
-                        <!-- <i class="fa-brands fa-instagram"></i> -->
-                        <img src="images/Vector-3.png" alt="">
-                        <p>Copyrigyht @ 2022 Yenspace. All rights reserved.</p>
-                    </div>
-
-                    <div class="footer2Content2">
-                        <h2>Subscribe to Mailing List</h2>
-
-                        <input type="text" name="email" id="" placeholder="Save money with our financial advice">
-                        <button type="submit" class="SubscribeButton">Subscribe</button>
-                    </div>
-                </div>
-            </footer>
+            </nav>
         </div>
 
 
-            <script src="nav.js"></script>
+        <!-- the hero section -->
+        <div class="container-fluid mt-0" id="hero">
+            <img class="heroImg " src="images/Frame 1.png" alt="">
+        </div>
+
+
+        <!-- the about us section -->
+        <div class="aboutUs container-lg">
+            <div class="row aboutUsRow">
+                <div class="col">
+                    <h1 class="aboutUsHead text-center">About Us</h1>
+
+                    <p class="aboutUsPara">Cardvo founded in 2022, by Zuri was developed by team proj cc gen/128. Our purpose is to serve you an array of fancy credit card designs, that you can view, edit, download and share with friends on social media platforms. There is an opportunity for you to create your own design based on your preference, for are no limits to your creativity on Cardvo.
+                        <br>
+                        Cardvo has about Fifty thousand (50,000) active users around the world, with over two hundred and twenty (220) card designs available in about seventy four (74) countries. If you need to know more or need assistance you can send us a mail via the contact us page. Little things matter to your happiness; unleash your creativity with Cardvo.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fact section -->
+        <div class="bigContainer">
+            <section class="facts" id="facts">
+                <div class="container-lg">
+                    <h1 class="factHead">Fact</h1>
+                    <div class="row justify-content-between align-items-center ">
+                        <div class="col-md-4">
+                            <div class=" factBox">
+                                <h1 class="factFig">50k+</h1>
+                                <p class="factPara">Active users around the world
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class=" factBox">
+                                <h1 class="factFig">220+</h1>
+                                <p class="factPara">Credit card designs</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class=" factBox">
+                                <h1 class="factFig">74+</h1>
+                                <p class="factPara">Active countries
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- The founders section -->
+            <section class="founders" id="facts">
+                <div class="container-lg">
+                    <h1 class="founderHead">Meet the Founders</h1>
+                    <div class="row justify-content-between align-items-center ">
+                        <div class="col-md-4">
+                            <div class="text-center md-rounded">
+                                <img class=" founderImg img-fluid" src="images/Frame 457.png" alt="">
+                            </div>
+                            <h2 class="founderName">J.O.Ademola</h2>
+                            <p class="founderPosition">Founder</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center rounded">
+                                <img class=" founderImg img-fluid" src="images/Frame 458.png" alt="">
+                            </div>
+                            <h2 class="founderName">A.J. Styles</h2>
+                            <p class="founderPosition">Co Founder</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center rounded">
+                                <img class=" founderImg img-fluid" src="images/Frame 459.png" alt="">
+                            </div>
+                            <h2 class="founderName">B.O.Kalejaye</h2>
+                            <p class="founderPosition">Co Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- the subscribe section -->
+        <section class="subscribe" id="subscribe">
+            <div class="container-lg subscribeCont">
+                <h1 class=" subscribeHead text-center">Subscribe for financial Advice</h1>
+                <p class=" subscribePara text-center">We help our users make better financial choices towards recieving cash rewards and saving money.</p>
+
+                <div class="row justify-content-center align-items-end">
+                    <div class="col-md-6">
+                        <img src="images/Frame 437.png" alt="" class="img-fluid subscribeImg" style="height: 100%; ">
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="need d-flex justify-content-start gap-3 align-items-center">
+                            <i class="fas fa-solid fa-check text-success"></i>
+                            <p class="needList">Need a credit card with no annual fee</p>
+                        </div>
+                        <div class="need d-flex justify-content-start gap-3 align-items-center">
+                            <i class="fas fa-solid fa-check text-success"></i>
+                            <p class="needList">Need insight on cash rewards on purchases?</p>
+                        </div>
+                        <div class="need d-flex justify-content-start gap-3 align-items-center">
+                            <i class="fas fa-solid fa-check text-success"></i>
+                            <p class="needList">Need insight to know ranges of cash limits</p>
+                        </div>
+                        <div class="need d-flex justify-content-start gap-3 align-items-center">
+                            <i class="fas fa-solid fa-check text-success"></i>
+                            <p class="needList">Need to know  cash limits that fits your spending habits?</p>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="text" class="form-control subscribeInp" placeholder="Enter email to access our advice" aria-label="Enter email to access our advice" aria-describedby="basic-addon2">
+                            <span class="input-group-text btn btn-primary" id="basic-addon2">@example.com</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- The footer Section -->
+        <section class=" footer bg-dark text-light">
+            <div class="container-lg">
+                <div class="row justify-content-between align-items-start">
+                    
+                        <div class="col-md-3 py-3 smallfooterCont">
+                            <h1 class="footerHead">Our company</h1>
+                            <p class="footerList">
+                                <a href="#">About Us</a>
+                            </p>
+                            <p class="footerList">
+                                <a href="#">Credit Card</a>
+                            </p>
+                            <p class="footerList">
+                                <a href="#">Testimonials</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 py-3 smallfooterCont">
+                            <h1 class="footerHead">Services</h1>
+                            <p class="footerList">
+                                <a href="#">Explore Designs</a>
+                            </p>
+                            <p class="footerList">
+                                <a href="#">Financial Advice</a>
+                            </p>
+                            <p class="footerList">
+                                <a href="#">Mailing List</a>
+                            </p>
+                        </div>
+                    
+
+                    
+                        <div class="col-md-3 py-3 smallfooterCont">
+                            <h1 class="footerHead">Support</h1>
+                            <p class="footerList">
+                                <a href="#">FAQ</a>
+                            </p>
+                            <p class="footerList">
+                                <a href="#">Contact US</a>
+                            </p>
+                            
+                        </div>
+
+                        <div class="col-md-3 py-3 smallfooterCont">
+                            <h1 class="footerHead">Useful resources</h1>
+                            <p class="footerList">
+                                <a href="#">Documentation</a>
+                            </p>
+                            
+                        </div>
+                    
+                </div>
+
+                <div class=" row justify-content-between align-items-start ">
+                   
+
+                    <div class="order-md-2 col-md-5 mailInput">
+                        <h2 class="mailTitle">Subscribe to Mailing List</h2>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Enter email to access our advice" aria-label="Enter email to access our advice" aria-describedby="basic-addon2">
+                            <span class="input-group-text btn btn-primary" id="basic-addon2">@example.com</span>
+                        </div>
+                    </div>
+
+                    <div class=" order-md-1 col-md-4 socialIcons">
+                        <h1 class="visitSocial">Visit us on social media!</h1>
+                        <a href="#"><img class="img-fluid" src="images/Vector.png" alt=""></a>
+                        <a href="#"><img class="img-fluid" src="images/Vector-1.png" alt=""></a>
+                        <a href="#"><img class="img-fluid" src="images/Vector-2.png" alt=""></a>
+                        <a href="#"><img class="img-fluid" src="images/Vector-3.png" alt=""></a>
+
+                        <p class="copyrigyht">Copyrigyht @ 2022 Yenspace. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
