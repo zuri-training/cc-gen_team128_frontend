@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+:root {
+    --primary: #F9F9F9;
+    --dark: hsl(220, 46%, 40%);
+    --body:#3f3f3f;
+    --btn: #4267B2;
+    --text: #fff;
+}
+
+.display-7 {
+    color: var(--dark);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 4rem 0;
+}
+
+.email {
+    background-color: var(--primary);
+    height: 300px;
+}
+
+.paragraph {
+    color: var(--body);
+    font-size: 1.2rem;
+}
+
+.btn2 {
+    background-color: var(--btn);
+    padding: 15px 50px;
+    color: var(--text);
+    border-radius: 10px;
+    margin-bottom: 20px !important;
+}
+.service {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 0 50px;
+    gap: 250px;
+    background-color: #ECF3F1;
+}
+
+.line {
+    border-left: 1px solid #000000;
+    height: 250px;
+    margin-top: -50px;
+}
+
+.iconbox {
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #262626;
+    font-weight: 700;
+}
+
+.desc1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #5e5e5e;
+}
+
+.desc2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #5e5e5e;
+}
+
+.btn1{
+    padding: 12px 50px;
+    background-color: #4267B2;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px 1px #3f3f3f;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: #4267B2;
+    transform: translateY(-15px);
+}
+
+.msg {
+    color: var(--text);
+}
+
+/*---------------------------------------------------------------------
+-------------------------------FAQ SECTION------------------------------
+-----------------------------------------------------------------------*/
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-weight: 800;
+    color: #262626;
+}
+
+.questions-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.question{
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.question button{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    border:none;
+    outline: none;
+    font-size: 18px;
+    color: #3f3f3f;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.question p{
+    font-size: 15px;
+    max-height: 0;
+    opacity: 0;
+    line-height: 1.5;
+    overflow: hidden;
+    transition: all 0.6s ease;
+}
+.fa-angle-down{
+    transition: transform 0.5s ease-in ;
+    color: #292D32;
+}
+
+
+/*add this class when click*/
+.question p.show{
+    max-height: 200px; 
+    opacity: 1;
+    padding:0px 15px 30px 15px;
+}
+.question button .d-arrow.rotate{
+    transform: rotate(180deg);
+}
+
+
+/******************************FOOTER SECTION****************************/
+.footer{
+    padding: 40px;
+    padding-bottom: 70px;
+    color: white;
+}
+.topCol{
+    display: flex;
+    gap: 140px;
+    flex-wrap: wrap;
+    padding-bottom: 140px;
+}
+.firstCol, .secondCol{
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+}
+.footerHead{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+}
+.footerList a{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-decoration: none;
+color: white;
+}
+
+.visitSocial{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+margin-bottom: 42px;
+}
+.socialIcons img{
+    width: 22px;
+    height: 20px;
+    margin-right: 55px;
+}
+.copyrigyht{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin-top: 42px;
+}
+.mailTitle{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+margin-bottom: 28px;
+}
+
+
+
+
+@media screen and (max-width: 425px){
+    .hero-img {
+        width: 300px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+
+    .service {
+        gap: 10px;
+        flex-direction: column;
+        background-color: transparent;
+        margin-top: -97px;
+    }
+
+    .line {
+        display: none;
+    }
+    .card-effect {
+        background-color: #ECF3F1; 
+        padding: 60px 0 30px;
+    }
+
+    .iconbox {
+        padding-bottom: 20px;
+    }
+    
+    h4 {
+        font-size: 16px;
+        color: #262626;
+        font-weight: 400;
+    }
+    
+    .desc1 {
+        font-size: 12px;
+        font-weight: 400;
+        color: #5e5e5e;
+    }
+    
+    .desc2 {
+        font-size: 12px;
+        font-weight: 400;
+        color: #5e5e5e;
+    }
+    
+    .btn1{
+        padding: 12px 15px;
+        background-color: #4267B2;
+        border-radius: 8px;
+        border: none;
+        margin-top: 20px;
+        box-shadow: 0 4px 10px 1px #3f3f3f;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+
+    .title {
+        font-size: 20px;
+        margin: 10px 30px 15px;
+    }
+
+    .question button {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .question p {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+    .service {
+        /* display: flex;
+        flex-direction: row;
+        justify-content: center; */
+        /* text-align: center;
+        padding: 100px 0 50px; */
+        gap: 70px;
+        /* background-color: #ECF3F1; */
+    }
+}
+
+@media (max-width: 800px){
+
+    .heroImg{
+        height: 200px;
+}
+    .footer{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+}
+    .smallfooterCont{
+        padding-left: 20px;
+        border-bottom: 3px solid #F9F9F9;
+}
+    .footerHead{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+    }
+.footerList{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+}
+    .mailTitle{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        margin-bottom: 8px;
+        margin-top: 20px;
+}
+    .mailInput{
+        margin-bottom: 86px;
+}
+    .visitSocial{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        margin-bottom: 23px;
+}
+    .socialIcons img{
+        margin-right: 24px;
+}
+    .copyrigyht{
+        font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 20px;
+}
+}
