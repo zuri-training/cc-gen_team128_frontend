@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.bigContainer{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.logo{
+    width: 180px;
+}
+
+
+
+.between {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+} 
+
+.between span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+.wider{
+   width: 100%;
+}
+.flexor{
+   display: flex;
+   justify-content: space-between;
+}
+#black a{
+    text-decoration: none;
+    color: black;
+}
+#addLine{
+   border-right: 0.5px black solid;
+}
+
+@media(max-width : 768px){
+    #addLine{
+   border: none;
+}
+}
+.footer{
+    padding: 80px;
+    padding-bottom: 183px;
+    color: white;
+}
+.topCol{
+    display: flex;
+    gap: 140px;
+    flex-wrap: wrap;
+    padding-bottom: 140px;
+}
+.firstCol, .secondCol{
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+}
+.footerHead{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+}
+.footerList a{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-decoration: none;
+color: white;
+}
+
+.visitSocial{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+margin-bottom: 42px;
+}
+.socialIcons img{
+    width: 22px;
+    height: 20px;
+    margin-right: 55px;
+}
+.copyrigyht{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin-top: 42px;
+}
+.mailTitle{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+margin-bottom: 28px;
+}
+
+
+
+@media (max-width: 800px){
+    .heroImg{
+        height: 200px;
+    }
+    
+    .aboutUsHead{
+        font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120%;
+margin-top: 20px;
+    }
+    .aboutUsPara{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin-top: 20px;
+margin-bottom: 0px;
+    }
+    .factHead, .founderHead{
+        font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120%;
+margin-bottom: 40px;
+    }
+    .factBox{
+        margin-bottom: 20px;
+    }
+    .factFig{
+        margin-top: 66px;
+        margin-bottom: 4px;
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+    }
+    .factPara{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+margin-bottom: 66px;
+    }
+    .facts{
+        padding-bottom: 80px;
+    }
+
+    .founderName{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+margin-bottom: 2px;
+    }
+    .founderPosition{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin-bottom: 16px;
+    }
+    .founders{
+        padding-bottom: 80px;
+    }
+
+    .subscribeHead{
+        font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120%;
+margin-bottom: 20px;
+    }
+    .subscribePara{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin-bottom: 20px;
+    }
+    .subscribeImg{
+        margin-bottom: 20px;
+    }
+    .needList{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #5E5E5E;
+    }
+
+    .footer{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .smallfooterCont{
+        padding-left: 20px;
+        border-bottom: 3px solid #F9F9F9;
+    }
+    .footerHead{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+    }
+    .footerList{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+    }
+    .mailTitle{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin-bottom: 8px;
+margin-top: 20px;
+    }
+    .mailInput{
+        margin-bottom: 86px;
+    }
+    .visitSocial{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin-bottom: 23px;
+    }
+    .socialIcons img{
+        margin-right: 24px;
+    }
+    .copyrigyht{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+margin-top: 20px;
+    }
+
+}
