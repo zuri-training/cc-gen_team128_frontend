@@ -1,0 +1,227 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img{
+  max-width: 100%;
+}
+
+/* ====================
+   ** Typography **
+  =================== */
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 0.35rem;
+}
+
+/* =================
+  HEADER SECTION
+  ================ */
+
+.page-header {
+    background-color: rgb(255, 255, 255);
+}
+
+.brand-logo {
+  width: 12rem;
+  padding: 1rem;
+}
+
+/* ====================
+  CARD DESIGN SECTION
+  =================== */
+
+.page--layout {
+  height: auto;
+  padding-top: 1rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: rgb(238, 233, 237);
+}
+
+.card--details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  grid-column: 1;
+  grid-row: 1;
+  background-color: rgb(255, 255, 255);
+}
+
+.card--details h3{
+  color: rgb(61, 9, 51);
+}
+
+.card--details p {
+  margin-top: 0;
+  padding: 1rem;
+  border: 0.185rem rgb(61, 9, 51) solid;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: rgb(189, 30, 81);
+}
+
+.card--design {
+  margin: 5rem 0;
+  padding: 2.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
+
+.cta--btns {
+  margin: 0 auto;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cta--btns img {
+  width: 1.2rem;
+  height: 1.2rem;
+  position: absolute;
+  top: 1rem;
+  left: 0.875rem;
+}
+
+.cta--btn-alt{
+  position: relative;
+}
+
+.action-btn {
+  height: 3rem;
+  padding: 1rem 1rem 1rem 2.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+}
+
+.btn1 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(189, 30, 81);
+}
+
+.btn2 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(61, 9, 51);
+}
+
+.btn3 {
+  border: 2px rgb(61, 9, 51) solid;
+  color: rgb(61, 9, 51);
+  background-color: rgb(255, 255, 255);
+}
+
+.card--feedback{
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  grid-column: 4 / 5;
+  grid-row: 1;
+}
+
+.card {
+  margin: 6rem auto;
+  width: 21.5rem;
+  height: 12.375rem;
+  background : -moz-linear-gradient(-11.47% 109.76% 31.79deg,rgba(78, 124, 172, 1) 0%,rgba(216, 239, 233, 1) 100%);
+  background : -webkit-linear-gradient(31.79deg, rgba(78, 124, 172, 1) 0%, rgba(216, 239, 233, 1) 100%);
+  background : -o-linear-gradient(31.79deg, rgba(78, 124, 172, 1) 0%, rgba(216, 239, 233, 1) 100%);
+  background : -ms-linear-gradient(31.79deg, rgba(78, 124, 172, 1) 0%, rgba(216, 239, 233, 1) 100%);
+  background : linear-gradient(58.21deg, rgba(78, 124, 172, 1) 0%, rgba(216, 239, 233, 1) 100%);
+  border-radius : 0.65rem;
+}
+
+
+.card-design--preview {
+  display: inline-block;
+  width: 100%;
+  transition: 0.45s ease-in-out;
+}
+
+.card-design--preview:hover {
+  width: 102%;
+}
+
+.colour--pick {
+  display: flex;
+}
+
+.colour--pick img {
+	margin: -0.1rem 1rem;
+	width: 1.65rem;
+	height: 1.65rem;
+}
+
+.card p {
+  margin: 0 0 0.7rem 0;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card--info{
+  margin-top: 1rem;
+}
+
+/* =================
+  FOOTER SECTION
+  ================ */
+
+.page-footer {
+  padding: 2rem 5.5rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 2fr repeat(2, 1fr);
+  color: rgb(255, 255, 255);
+  background-color: rgb(61, 9, 51);
+}
+
+.page-footer a {
+  color: rgb(255, 255, 255);
+}
+
+.page-footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.page-footer a,
+.page-footer p {
+  font-size: 0.875rem;
+}
+
+.page-footer--links {
+  line-height: 2.5rem;
+}
+
+.page-footer--copy {
+  margin: 0 auto;
+  padding: 1rem;
+	grid-column: 1 / 4;
+	grid-row: 2;
+}
