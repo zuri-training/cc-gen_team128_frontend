@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Montserrat', Arial, sans-serif;
 }
@@ -19,6 +23,10 @@ a:hover {
 
 img{
   max-width: 100%;
+}
+
+button {
+  cursor: pointer;
 }
 
 /* ====================
@@ -195,6 +203,12 @@ h1 {
 }
 
 .page-footer a {
+  color: rgb(255, 255, 255);
+}
+
+.page-footer img{
+  width: 1.65rem;
+  margin-right: 1rem;
   color: rgb(255, 255, 255);
 }
 
